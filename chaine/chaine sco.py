@@ -48,7 +48,7 @@ def taille(tete):
         count += 1
     return count
     
-
+# commentaire
     
 
 liste = None
