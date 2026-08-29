@@ -1,30 +1,30 @@
 class Noeud:
-    def __init__(self,valeur,suivant = None):
-        self.set_valeur(valeur)
-        self.set_suivant(suivant)
-        
-    def set_valeur(self,valeur):
-        self.valeur = valeur
-    
-    def set_suivant(self,suivant):
-        if suivant == None:
-            self.suivant = []
-        elif isinstance(suivant, list):
-            self.suivant = suivant
-        else:
-            self.suivant = [suivant]
-    
-    def get_valeur(self):
-        return self.valeur
-    
-    def get_suivant(self):
-        return self.suivant
-    
+	def __init__(self,valeur,suivant = None):
+		self.set_valeur(valeur)
+		self.set_suivant(suivant)
+
+	def set_valeur(self,valeur):
+		self.valeur = valeur
+
+	def set_suivant(self,suivant):
+		if suivant == None:
+			self.suivant = []
+		elif isinstance(suivant, list):
+			self.suivant = suivant
+		else:
+			self.suivant = [suivant]
+
+	def get_valeur(self):
+		return self.valeur
+
+	def get_suivant(self):
+		return self.suivant
+
 class Arbre:
-    def __init__(self,liste1 = None):
-        self.set_liste1(liste1)
-        self.racine = self.make_arbre()
-        
+	def __init__(self,liste1 = None):
+		self.set_liste1(liste1)
+		self.racine = self.make_arbre()
+
     def set_liste1(self,liste1):
         if liste1 == None:
             self.liste1 = []
