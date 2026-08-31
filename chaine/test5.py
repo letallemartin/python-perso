@@ -42,6 +42,7 @@ liste = add_debut(liste, "a")
 liste = add_debut(liste, "b")
 liste = add_debut(liste, "c")
 liste = add_fin(liste, "d")
+liste = add_fin(liste, "e")
 actuel = liste
 # while actuel.suivant != None:
 # 	print(actuel.valeur)
