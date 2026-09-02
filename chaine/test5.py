@@ -36,7 +36,8 @@ def add_fin(tete, valeur):
 			actuel = actuel.suivant
 		actuel.suivant = Noeud(valeur, None)
 	return tete
-	
+
+
 liste = None
 liste = add_debut(liste, "a")
 liste = add_debut(liste, "b")
